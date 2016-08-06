@@ -5,7 +5,7 @@ Equality
 
 The Equality class is used to see if two objects are equal, based on ``object_1.id === object_2.id``.
 
-If any class in Discord extends equality, it means you should never the default equality operands (``==`` & ``===``) as they could potentially be different instances and therefore appear not to be equal. Instead, use ``equalityObject.equals()`` as shown below.
+If any class in Discord extends equality, it means you should never use the default equality operands (``==`` & ``===``) as they could potentially be different instances and therefore appear not to be equal. Instead, use ``equalityObject.equals()`` as shown below.
 
 .. code-block:: js
 
